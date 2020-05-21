@@ -1279,6 +1279,10 @@ Since there are 90 universities in total, the best way to present our findings i
 
 ![MAP](/Map_total.png)
 
+We can also interact with the map.
+
+![Link to MAP](/University_Food_Map@0520.html)
+
 Clearly, we cannot observe any clear geographic pattern of the clustering. Almost every province has universities from each label. This is consistent with what we concluded from the province distribution table that no apparent geographic pattern is observed. Therefore, our next step is to go back to our data frames and see which venue category is more common under each group.
 
 Here we will use two formats to present the result. The first one summarizes the total number of venues under each category and displays them by groups. The second one is based on the result of the first one and is further divided by the number of universities in each group. This allows us to consider the different sizes of the groups when drawing any conclusions. Considering there are too many different venue categories, we only display the top 10 for each group.
