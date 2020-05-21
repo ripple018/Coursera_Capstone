@@ -765,7 +765,7 @@ We build two tables via calculations done on the table we got in the last step, 
 <p>5 rows × 68 columns</p>
 </div>
 
-With these two tables df_recomm_count and df_recomm_perc we can process our analysis
+With these two tables we can process our analysis
 
 ### 3.2. Exploratory Data Analysis
 
@@ -1277,9 +1277,15 @@ Subject to the total number of universities in each province, almost every provi
 
 Since there are 90 universities in total, the best way to present our findings is visualization. From the map generated using `folium`, we can see six different colours on the map, each representing a different cluster.
 
-## Pending Maps
+![MAP](/Map_total.png)
+
+We can also interact with the map.
+
+![Link to MAP](/University_Food_Map@0520.html)
 
 Clearly, we cannot observe any clear geographic pattern of the clustering. Almost every province has universities from each label. This is consistent with what we concluded from the province distribution table that no apparent geographic pattern is observed. Therefore, our next step is to go back to our data frames and see which venue category is more common under each group.
+
+Here we will use two formats to present the result. The first one summarizes the total number of venues under each category and displays them by groups. The second one is based on the result of the first one and is further divided by the number of universities in each group. This allows us to consider the different sizes of the groups when drawing any conclusions. Considering there are too many different venue categories, we only display the top 10 for each group.
 
     -------- Label 0 --------
     Café                             64
